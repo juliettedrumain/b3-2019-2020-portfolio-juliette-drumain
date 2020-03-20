@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+body {
+font-family: 'Abril Fatface';
+font-weight: 400;
+font-size: 15px;
+background-color:white;
+}
+
+h1{
+  text-align: left;
+  font-size: 150px;
+  color: #f6c89f;
+  padding-top: 60px;
+  padding-left: 80px;
+  letter-spacing: 5px;
+  line-height: 10px;
+}
+
+h2{
+  max-width:640;
+  color:black;
+  text-align: 20px;
+  text-align: left;
+  padding-left: 110px;
+  padding-bottom:140px;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+h3{
+  font-size: 70px;
+  text-align: right;
+  letter-spacing: 4px;
+  color: #f6c89f;
+}
+
+
+#title{
+  border-bottom: solid #f6c89f 6px;
+}
+
+#creativity{
+  border-top: solid #f6c89f 6px;
+}
+
+h3 #creativity{
+  text-align: left;
+}
+
+#right{
+  font-size: 30px;
+  text-align: right;
+}
+
+#left{
+  font-size: 30px;
+  text-align: left;
+}
+
+#project01{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:flex;
+}
+
+#project02{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  display:flex;
+}
+
+#project03{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  display:flex;
+}
+
+#project04{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  display:flex;
+}
+
+#project05{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  display:flex;
+}
+
+#project06{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  display:flex;
+}
+
+#project07{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  display:flex;
+}
+
+#project08{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid #f6c89f 2px;
+  border-bottom: solid #f6c89f 6px;
+  display:flex;
+}
+
+p #contact{
+  text-align: right;
+}
