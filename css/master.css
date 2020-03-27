@@ -4,116 +4,98 @@ body {
 font-family: 'Abril Fatface';
 font-weight: 400;
 font-size: 15px;
-background-color:white;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid black ;
+}
+
+nav{
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  top:80px;
+  right: 0;
+}
+
+ul{
+  width: fit-content;
+  margin: auto;
+  list-style: none;
+}
+
+ul li{
+  float: left;
+  margin-right: 30px;
+}
+
+ul li a{
+  color: black;
+  line-height: 30px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+ul li a:hover{
+  color:#f6c89f;
 }
 
 h1{
-  text-align: left;
-  font-size: 150px;
+  font-size:50px;
+  color: black;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-top: 30px;
   color: #f6c89f;
-  padding-top: 60px;
-  padding-left: 80px;
-  letter-spacing: 5px;
-  line-height: 10px;
 }
 
 h2{
-  max-width:640;
-  color:black;
-  text-align: 20px;
-  text-align: left;
-  padding-left: 110px;
-  padding-bottom:140px;
-  letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 100px;
+  padding-left: 40px;
+  color: #f6c89f;
+
 }
 
 h3{
-  font-size: 70px;
-  text-align: right;
-  letter-spacing: 4px;
+  font-size: 50px;
+  padding-left:30px;
   color: #f6c89f;
 }
 
-
-#title{
-  border-bottom: solid #f6c89f 6px;
+#about-me img{
+  padding-left: 700px;
 }
 
-#creativity{
-  border-top: solid #f6c89f 6px;
+#project-01 img{
+  width: 1000px;
 }
 
-h3 #creativity{
-  text-align: left;
+#project-02 img{
+  width: 1000px;
 }
 
-#right{
-  font-size: 30px;
-  text-align: right;
+section #contact{
+  height: 100px;
 }
 
-#left{
-  font-size: 30px;
-  text-align: left;
+p{
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-#project01{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display:flex;
-}
-
-#project02{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  display:flex;
-}
-
-#project03{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  display:flex;
-}
-
-#project04{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  display:flex;
-}
-
-#project05{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  display:flex;
-}
-
-#project06{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  display:flex;
-}
-
-#project07{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  display:flex;
-}
-
-#project08{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid #f6c89f 2px;
-  border-bottom: solid #f6c89f 6px;
-  display:flex;
-}
-
-p #contact{
-  text-align: right;
+#about-me img{
+  flex: auto;
+  padding-bottom: 30px;
 }
