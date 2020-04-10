@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
 font-family: 'Abril Fatface';
@@ -64,7 +65,7 @@ h1{
 }
 
 h2{
-  font-size: 100px;
+  font-size: 85px;
   padding-left: 40px;
   color: #f6c89f;
 
@@ -74,22 +75,41 @@ h3{
   font-size: 50px;
   padding-left:30px;
   color: #f6c89f;
+  padding-top: 30px;
+}
+
+#about-me h3{
+  color:black;
+  font-size: 30px;
+  padding-left: 100px;
+}
+
+#about-me h4{
+  color:black;
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+#about-me p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: right;
+  padding-left: 30px;
+  padding-right: 600px;
+  padding-bottom: 30px;
+}
+
+#end{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#end2{
+  padding-bottom: 50px;
 }
 
 #title{
   padding-bottom: 100px;
-}
-
-#about-me img{
-  padding-left: 700px;
-}
-
-#project-01 img{
-  width: 1000px;
-}
-
-#project-02 img{
-  width: 1000px;
 }
 
 section #contact{
@@ -105,4 +125,39 @@ p{
 #about-me img{
   flex: auto;
   padding-bottom: 30px;
+}
+
+.center {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; }
+div#slider { overflow: hidden;
+padding: 200px}
+
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
 }
